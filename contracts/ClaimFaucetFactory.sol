@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.27;
 import {ClaimFaucet} from "./ClaimFaucet.sol";
-import {IERC20} from "./IERC20Token.sol";
+import {IERC20} from "./interface/IERC20Token.sol";
 
 contract ClaimFaucetFactory {
     struct DeployedContractInfo {
